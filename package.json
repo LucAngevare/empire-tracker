@@ -19,6 +19,8 @@
     "react-dom": "^18.2.0",
     "react-map-gl": "^7.0.16",
     "react-scripts": "5.0.1",
+    "react-slider": "^2.0.4",
+    "toolcool-range-slider": "^4.0.17",
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
   },

@@ -1,0 +1,64 @@
+.App {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 5%;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+}
+
+.yearSlider {
+    width: 85%;
+    margin: auto;
+    position: absolute !important;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.yearSlider-track {
+    top: 8px;
+    height: 4px;
+    background: #ddd;
+}
+
+.yearSlider-mark {
+    cursor: pointer;
+    top: 6px;
+    width: 1.5px;
+    height: 8px;
+    background-color: #ddd;
+}
+
+.yearSlider-track.yearSlider-track-0 {
+    background: rgb(104, 117, 217);
+}
+.yearSlider-thumb {
+    cursor: pointer;
+    background: rgb(104, 117, 217);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    outline: none;
+}
+
+.yearSlider-thumb:hover {
+    box-shadow: 0 0 0 8px rgb(104, 117, 217, 0.2);
+}
+
+.yearSlider-mark.yearSlider-mark-before {
+    background-color: rgb(104, 117, 217);
+}
+
+.yearSlider-mark.yearSlider-mark-active {
+    display: none;
+}
